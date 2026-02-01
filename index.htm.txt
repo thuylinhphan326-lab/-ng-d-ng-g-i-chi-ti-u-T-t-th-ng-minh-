@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Kế Hoạch Chi Tiêu Tết Thông Minh 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <h1>🧧 Kế Hoạch Chi Tiêu Tết 🎉</h1>
+        <p class="sub">Tết vui hơn với kế hoạch chi tiêu thông minh – rõ ràng – tiết kiệm đúng ý bạn!</p>
+
+        <div class="input-box">
+            <input id="moneyInput" type="number" placeholder="Nhập số tiền bạn có...">
+            <button onclick="createPlan()">Tạo kế hoạch</button>
+        </div>
+    </header>
+
+    <div class="plan-container" id="plan"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
